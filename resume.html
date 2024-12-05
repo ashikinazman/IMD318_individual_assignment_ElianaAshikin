@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal website showcasing Eliana's profile.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title> Eliana's profile </title>
+<style>
+       body {
+            font-family: 'Sour Gummy', Arial, sans-serif;
+            background-color: #f8d7e4; 
+            color: #333;  
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #b66878;
+	    background-image: url ('background.jpg'); 
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-family: 'MV Boli', cursive;
+            border-bottom: 3px solid #c98895; 
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            animation: fadeInOut 2s infinite;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        @keyframes fadeInOut {
+            0%, 100% { opacity: 0; }
+            50% { opacity: 1; }
+        }
+
+       nav {
+            background-color: #daabb5;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 2px solid #c98895
+        }
+
+        nav a {
+            color: #fff;
+            font-family: 'MV Boli', cursive;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: #b66878;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        nav a:hover {
+            background-color: #d687b8;
+            transform: scale(1.1);
+        }
+
+        section {
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .about-me, .contact, .education-list, .work-list, .skills {
+            margin-bottom: 20px;
+            text-align: justify;
+            background-color: #daabb5; 
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 8px solid #f5c5dc;
+        }
+        h2, h3 {
+            color: #ba5a87;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table th, table td {
+            border: 1px solid #d9c4d1;
+            padding: 10px;
+            text-align: left;
+            background-color: #fffafc;
+        }
+        table th {
+            background-color: #b66878;
+            color: white;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        ul li a {
+            color: #ba5a87;
+            text-decoration: none;
+            transition: color 0.3s ease, transform 0.2s ease;
+        }
+        ul li a:hover {
+            color: #d687b8;
+            transform: scale(1.1);
+        }
+
+	.education-image img {
+	    width: 100%; 
+    	    max-width: 200px; 
+   	    border-radius: 50%; 
+    	    border: 5px solid #f5c5dc; 
+    	    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    	    margin: 10px auto; 
+    	    display: block; 
+    	    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+	}
+
+	.education-image img:hover {
+    	    transform: scale(1.1); 
+    	    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+	}
+
+        .button {
+   	     background-color: #c98895;
+   	     color: white;
+    	     padding: 10px 20px;
+    	     font-size: 16px;
+   	     border: none;
+    	     border-radius: 25px;
+    	     text-decoration: none;
+    	     transition: background-color 0.3s ease;
+	     float: left;
+	}
+
+        .button:hover {
+            background-color: #ff1493;  
+        }
+
+        footer {
+            background-color: #b66878;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            height: 10%;
+            bottom: 0;
+            border-top: 3px solid #c98895 ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+	<a href="mainpage.html" class="button" >Back</a>
+        <h1>🌸 Welcome to Eliana's Resume 🌸</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a Diploma in Information Management student from University Technology MARA, eager to apply my academic knowledge and skills in a professional setting. Throughout my studies, I developed a strong foundation in records management, C++ programming, html, and have gained hands-on experience through internships, projects, and studies. I am a fast learner with a passion for software developer, and I am excited about starting my professional career. With excellent communication, teamwork, and problem-solving skills, I am ready to contribute to a dynamic team and make a positive impact.</p>
+            
+	<h3>Biodata</h3>
+            <table>
+                <tr>
+                    <th>Full Name</th>
+                    <td>Eliana Ashikin Binti Azman</td>
+                </tr>
+                <tr>
+                    <th>Date of Birth</th>
+                    <td>January, 31th 2004</td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td>Female</td>
+                </tr>
+                <tr>
+                    <th>Nationality</th>
+                    <td>Malaysian</td>
+                </tr>
+                <tr>
+                    <th>Languages</th>
+                    <td>English, Malay</td>
+                </tr>
+                <tr>
+                    <th>Hobbies</th>
+                    <td>Reading, Coding and Listen to music</td>
+                </tr>
+            </table>
+
+	<h3>This is me</h3>
+	<img src="eliana2.jpg" alt="Eliana" width="250">
+
+        </div>
+    </section>
+
+<section id="education" class="education-list">
+    <div class="container">
+        <h2>Education</h2>
+        
+        <div class="education-item">
+            <div class="education-content">
+                <h3>Sekolah Kebangsaan Cheras Jaya, Selangor</h3>
+                <p>Started in 2011 until 2016</p>
+            </div>
+            <div class="education-image">
+                <img src="skcj.jpg" alt="Sekolah Kebangsaan Cheras Jaya" />
+            </div>
+        </div>
+        
+        <div class="education-item">
+            <div class="education-content">
+                <h3>Sekolah Menengah Kebangsaan Jalan Paya Besar, Kedah</h3>
+                <p>Started in 2017 until 2021</p>
+            </div>
+            <div class="education-image">
+                <img src="smkjpb.jpg" alt="Sekolah Menengah Kebangsaan Jalan Paya Besar" />
+            </div>
+        </div>
+        
+        <div class="education-item">
+            <div class="education-content">
+                <h3>University Technology MARA, Kedah</h3>
+                <p>Started in 2022 until 2025</p>
+            </div>
+            <div class="education-image">
+                <img src="uitm.jpg" alt="University Technology MARA, Kedah" />
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <h3>Technical/IT Skills</h3>
+            <li>C++ programming</li>
+            <li>Basic Python</li>
+            <li>MySQL</li>
+            <li>HTML</li>
+
+            <h3>Marketing and Design</h3>
+            <li>Social Media Management</li>
+            <li>Content Creation and Copywriting</li>
+            <li>Branding and Storytelling</li>
+
+            <h3>Writing</h3>
+            <li>Microsoft Word</li>
+            <li>Microsoft Excel</li>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>My Contact</h2>
+            <p>If you'd like to get in touch with me, feel free to email me at 2022660972@student.uitm.edu.my .</p>
+            <p>You can also find me on social media:</p>
+            <ul>
+                <li><a href="https://www.instagram.com/e.shii_?igsh=MXUxamM4dXcwbm04aA==" target="_blank">Instagram</a></li>
+                <li><a href="https://www.google.com.my/maps/place/298,+Lorong+Cekur+Manis+1%2F7,+Taman+Cekur+Manis,+09600+Lunas,+Kedah/@5.4162061,100.5408167,17z/data=!3m1!4b1!4m6!3m5!1s0x304acc3a86140293:0x8152413e65c2c756!8m2!3d5.4162061!4d100.5433916!16s%2Fg%2F11j8sjf5y7?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Address</a></li>
+                <li><a href="https://www.tiktok.com/@shinam0nroll_?_t=ZS-8ruioh5yzR3&_r=1" target="_blank">Tiktok</a></li>
+                <li><a href="https://wa.link/ysnenz" target="_blank">WhatsApp</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Eliana's Creations. All rights reserved. 💖
+    </footer>
+</body>
+</html>
